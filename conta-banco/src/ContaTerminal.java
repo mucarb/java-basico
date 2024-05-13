@@ -18,7 +18,9 @@ public class ContaTerminal {
     System.out.println("Quantos você tem de saldo?");
     Double saldo = scanner.nextDouble();
 
-    // TODO: Imprimir resultado dos dados da conta ao usuário
+    System.out.println("Olá ".concat(nome).concat(", obrigado por criar uma conta em nosso banco, sua agência é ")
+        .concat(agencia).concat(", conta ").concat(String.valueOf(numero)).concat(" e seu saldo R$")
+        .concat(String.valueOf(saldo)).concat(" já está disponível para saque."));
 
     scanner.close();
   }
